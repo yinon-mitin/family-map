@@ -12,11 +12,9 @@ A fast, private, dependency-free diagram builder for therapy, counselling and co
 
 [![Live demo](https://img.shields.io/badge/live%20demo-GitHub%20Pages-2962ff?style=flat-square)](https://yinon-mitin.github.io/family-map/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
-![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen?style=flat-square)
-
-![No tracking](https://img.shields.io/badge/data-stays%20in%20your%20browser-263238?style=flat-square)
-![Languages](https://img.shields.io/badge/UI-Русский%20%7C%20English-ab47bc?style=flat-square)
-![Devices](https://img.shields.io/badge/works%20on-desktop%20%7C%20tablet%20%7C%20phone-ff9800?style=flat-square)
+[![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen?style=flat-square)](#-under-the-hood)
+[![Languages](https://img.shields.io/badge/UI-Русский%20%7C%20English-ab47bc?style=flat-square)](#-why-family-map)
+[![Devices](https://img.shields.io/badge/works%20on-desktop%20%7C%20tablet%20%7C%20phone-ff9800?style=flat-square)](#-made-for-the-room-not-just-the-desk)
 
 <br>
 
