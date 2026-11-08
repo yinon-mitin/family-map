@@ -152,7 +152,11 @@
 
   function textBlock(parent, lines, x, top, fs, fill) {
     const lh = fs * 1.25;
-    const el = svgEl('text', { x, y: r2(top + fs * 0.9), 'font-size': fs, 'text-anchor': 'middle', fill, class: 'lbl' }, parent);
+    // White outline behind the glyphs keeps labels readable where lines cross them.
+    const el = svgEl('text', {
+      x, y: r2(top + fs * 0.9), 'font-size': fs, 'text-anchor': 'middle', fill, class: 'lbl',
+      stroke: PAPER, 'stroke-width': 5, 'stroke-linejoin': 'round', 'paint-order': 'stroke'
+    }, parent);
     lines.forEach((ln, i) => {
       const s = svgEl('tspan', { x, dy: i ? r2(lh) : 0 }, el);
       s.textContent = ln || ' ';
